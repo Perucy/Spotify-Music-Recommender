@@ -4,8 +4,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
 
-spotify_client_id = "e8ff6b9e55494f64b97a3c5ce3c7c0c2"
-spotify_client_secret = "aef908a3ccc94c39a72de987db53fa9b"
+spotify_client_id = "your_client_id"
+spotify_client_secret = "your_client_secret"
 spotify_redirect_uri = "https://google.com/"
 
 client_cred_manager = SpotifyClientCredentials(client_id=spotify_client_id,
