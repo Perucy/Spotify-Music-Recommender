@@ -1,6 +1,3 @@
-# import os
-# genius client id = YprDUCCA6eomDrFoDO9mH_uUEyjW_4UQmKj1wh11gOH2AUFXpIMy_ecrbhKABavf
-# genius client secret = jHcgN3sKK01xhzHMCcTArMqnBYDo_fslMnO3WRsnI_5CuvNYVfszHinnz8L6tgyGsXodifK9aBMaj8lgc0PGeA
 import json
 
 """
@@ -14,10 +11,10 @@ import re
 import spotipy
 import lyricsgenius as lg
 
-spotify_client_id = "e8ff6b9e55494f64b97a3c5ce3c7c0c2"
-spotify_client_secret = "aef908a3ccc94c39a72de987db53fa9b"
+spotify_client_id = "your_client_id"
+spotify_client_secret = "your_client_secret"
 spotify_redirect_uri = "https://google.com/"
-genius_access_token = "AXfaK0cpkiQ5E8N1wYtm1LSQZu94ETj1vSlj4pGsnrKrocMPmvpn-Mjs3ZHM0DSa"
+genius_access_token = "your_access_token"
 
 scope = 'user-read-currently-playing'
 
